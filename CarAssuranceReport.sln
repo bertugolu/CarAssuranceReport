@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAR.DAL", "CarApi.DAL\CAR.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAR.Demo.DAL", "CAR.Demo.DAL\CAR.Demo.DAL.csproj", "{95FDC77D-BF86-4F2B-924C-719B7120368B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAR.Mockups", "CAR.Mockups\CAR.Mockups.csproj", "{A2A316E0-6B6F-4D50-83CA-96ACB6ABCCD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{95FDC77D-BF86-4F2B-924C-719B7120368B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95FDC77D-BF86-4F2B-924C-719B7120368B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95FDC77D-BF86-4F2B-924C-719B7120368B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A316E0-6B6F-4D50-83CA-96ACB6ABCCD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A316E0-6B6F-4D50-83CA-96ACB6ABCCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A316E0-6B6F-4D50-83CA-96ACB6ABCCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A316E0-6B6F-4D50-83CA-96ACB6ABCCD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
