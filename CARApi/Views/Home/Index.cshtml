@@ -1,0 +1,27 @@
+﻿<div class="intro-text" data-ng-controller="EmailController as emailCntrl">
+    <div class="intro-lead-in">Car purcahsing peace of mind is coming soon!</div>
+        
+    <form name="emailCntrl.form" novalidate>
+
+        <div class="intro-heading">
+            <input type="email" name="email" class="plateInput" placeholder="email" id="plateInput" data-ng-model="emailCntrl.email" required />
+        </div>
+
+        <div class="has-error" data-ng-show="emailCntrl.registration.successful">
+            <label> Email saved successfully! Thanks for your interest, we will get in touch when ready.</label>
+        </div>
+
+        <div class="form-group has-error" data-ng-show="emailCntrl.registration.errorMessage">
+            <label>{{emailCntrl.registration.errorMessage}}</label>
+        </div>
+
+        <div class="intro-terms">
+            Email will only be used for CAR related news, nothing else.
+        </div>
+
+        <div>
+            <a class=" btn btn-xl btn-responsive" data-ng-click="emailCntrl.RegisterEmail()" data-ng-cloak>{{emailCntrl.buttonText}}</a>
+        </div>
+
+    </form>
+</div>
