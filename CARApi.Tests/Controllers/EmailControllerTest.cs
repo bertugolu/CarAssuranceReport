@@ -1,12 +1,7 @@
-﻿using CarApi.DAL;
-using CarApi.DAL.Models;
-using CARApi.Controllers;
-using CARApi.Models;
+﻿using CAR.PE.Models;
+using CAR.PL.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Results;
